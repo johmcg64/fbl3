@@ -60,8 +60,10 @@
  * @static
  * @access private
  */
-if (!window.FB) {
-  window.FB = {
+//if (!window.FB) {
+//window.FB = {
+if(1) {
+  FB = {
     // use the init method to set these values correctly
     _apiKey       : null,
     _authResponse : null,
